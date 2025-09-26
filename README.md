@@ -23,9 +23,6 @@ Với giao diện thân thiện, chỉ vài thao tác click chuột là bạn c�
 
 ### Kết quả sau khi xử lý
 ![Kết quả](result.png)
-
-*(Lưu ý: bạn đổi tên file ảnh thành `app_open.png`, `app_processing.png`, `app_result.png` và đặt vào thư mục `images/` trong repo để hiển thị đúng.)*
-
 ---
 
 ## 🛠️ Cách sử dụng
@@ -42,11 +39,15 @@ Với giao diện thân thiện, chỉ vài thao tác click chuột là bạn c�
    ```bash
    git clone https://github.com/Phuc75nguyen/AutoData4FA.git
    cd AutoData4FA
-2. Cài đặt môi trường ảo
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
 
-3. Chạy ứng dụng 
-python app_gui.py
+2. Cài đặt môi trường ảo
+   ```bash
+    python -m venv venv
+    venv\Scripts\activate
+    pip install -r requirements.txt
+     Chạy ứng dụng:  python app_gui.py
+
+---
+### Make with Ton of Love (Tan Phuc)
+
 
